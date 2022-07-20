@@ -1,5 +1,5 @@
-import './util/tracing'
 import 'reflect-metadata' // This import has to be placed at the top level for Dependency Injection
+import './util/tracing' // This import is here to enable Datadog tracing
 import path from 'path'
 import bodyParser from 'body-parser'
 import express from 'express'
